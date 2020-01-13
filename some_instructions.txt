@@ -1,0 +1,8 @@
+1) For assembling with nasm my sources i used:
+	$> nasm -fbin <source> -o <binary_name>
+2) For patching an HDD-image 0-512 boot bytes i used programm i wrote with C
+	- it located at boot_patcher directory
+3) For launching QEMU i used:
+	$> qemu-system-x86_64 -drive format=raw,file=<disk_image_file> --nographic
+4) For creating an empty image i used (it could ask me about specifying an format):
+	$> qemu-img <image_name> <size>
