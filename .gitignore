@@ -1,0 +1,5 @@
+*.bin
+*.o
+*.dSYM
+*.exe
+*.out
